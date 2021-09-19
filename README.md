@@ -15,14 +15,14 @@ EQ including two parametric bands (and the EQ's can be split between mic/line
 and tape returns as well), and a host of effects sends as well as two
 "foldback" monitor mix sends. All in all, the feature list is quite impressive!
 
-A console of this type as likely to be paired with a semi-pro 8-track recorder
+A console of this type was likely to be paired with a semi-pro 8-track recorder
 such as those available from Tascam. but around the same time, Alesis released
 the ADAT, which put digital multitrack recording in the hands of the masses for
 the first time. Since ADATs could be linked together with sample-accurate
-synchronization, the 16 or 24 track studios came into reach for serious home
+synchronization, 16 and 24 track studios came into reach for serious home
 musicians and project studios, and along with completely hard-disk / DAW based
-systems, were probably the death knell for small or medium professional
-studios in some cases (citation needed.)
+systems, were probably the death knell for some small professional
+studios (citation needed.)
 
 For years, I've operated without a hardware mixer, opting instead to expand my
 I/O capabilities and record synths directly into Pro Tools and Logic. However,
@@ -49,13 +49,15 @@ suggestions for things that you should consider.
   value of forums is gaining insight into potential pitfalls, common
   issues, and potentially, sources of spare parts.
 
-* **Shop locally**  Recording consoles like this are can be large and
+* **Shop locally**  Recording consoles like this are large and
   heavy. Even the sixteen channel console that I am restoring is large,
   and I ended up paying $100 just in shipping. This was greatly offset by
   the low price that I paid, but I'd encourage you to shop locally where
   possible for two reasons. First, shipping costs. Second, you'll have
   the opportunity to test the console out and see its condition before
-  purchasing and incurring shipping costs.
+  purchasing and incurring shipping costs. In my case, I really lucked
+  out as the console functioned very well (nothing broken, at least) and
+  wasn't missing any knobs, sliders, etc.
 
 * **Make sure you have schematics** Schematics *can* be hard to find but
   are necessary if you truly need to dig in with the restoration. They are
@@ -63,7 +65,7 @@ suggestions for things that you should consider.
   interested in building projects of your own design.
 
 * **Consider parts availability**  Parts for some consoles can be hard to
-  locate. A friend of mine has a Calrec console that uses VCAs that are
+  locate. A friend of mine has a Calrec console that uses ICs that are
   no longer being made. Obtaining spares will be expensive. By contrast,
   the Spirit Studio uses (mostly) still-available op-amps.
 
@@ -74,7 +76,14 @@ suggestions for things that you should consider.
   provide adequate protection for faults, it would be bad news if, for
   example, one of the power rails in a bipolar supply failed and the
   other one remained functional. Check large electrolytic capacitors
-  (more on that later) and replace if bulging, leaking, etc.
+  (more on that later) and replace if bulging, leaking, etc. 
+
+  **NOTE:** I've seen some consoles for sale *without* their power
+  supplies. I would be wary of this. If the seller doesn't have the power
+  supply, there is now real way for you to test it. Additionally, these
+  power supplies are speciality items and often sell on eBay for
+  hundreds of dollars. I got my console (and power supply) for less than
+  what other people are selling their power supplies for on eBay!
 
 * **Have the correct tools, know how to use them**  Restoration of a
   console will generally require some parts to be repaired or replaced.
@@ -82,6 +91,18 @@ suggestions for things that you should consider.
   the right tools as well the expertise for this. If you don't, you have
   two options: pay a qualified tech, or teach yourself. If you opt for
   the latter, practice using the tools and techniques on old circuit
-  boards before touching any gear you care about.
+  boards before touching any gear you care about. I would *strongly*
+  encourage someone undertaking a restoration to spend the time learning
+  how to do these things yourself. Otherwise, whatever you think it
+  will cost to restore the console will be multiplied by some factor.
 
-* **Establish a budget**
+* **Establish a budget**  I alluded to this above, but restoration of
+  a console can and will get costly. For example, I am considering
+  whether to "re-cap" the Spirit Studio. If I do, it's going to involve
+  replacing in the area of, say, 500 capacitors give or take. Not only
+  will this get expensive, it may actually be hard to source the caps
+  given the supply-chain shortages in 2021.  If you're new to analog
+  consoles, the budget will also include cabling to integrate it into
+  your system. You may also need to upgrade your computer interface
+  (assuming you use a DAW-based system) to add channels in support of
+  integrating the analog console.
