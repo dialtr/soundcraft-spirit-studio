@@ -80,7 +80,7 @@ suggestions for things that you should consider.
 
   **NOTE:** I've seen some consoles for sale *without* their power
   supplies. I would be wary of this. If the seller doesn't have the power
-  supply, there is now real way for you to test it. Additionally, these
+  supply, there is no real way for you to test it. Additionally, these
   power supplies are speciality items and often sell on eBay for
   hundreds of dollars. I got my console (and power supply) for less than
   what other people are selling their power supplies for on eBay!
