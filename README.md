@@ -137,4 +137,4 @@ Spirit Studio 16 today.
 
 ![Soundcraft Spirit Studio unboxed](assets/unboxed.jpg)
 
-
+Here it is out of the box (above.)  
