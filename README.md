@@ -111,6 +111,30 @@ suggestions for things that you should consider.
 
 ### 25 August 2021
 
-The console arrived today:
+The console arrived today, and I had some help unboxing it from my Corgi pal,
+Stanley, who does not look like he approves of the purchase in this picture.
+Perhaps he thinks it will mean less time spent with him?
 
 ![Soundcraft Spirit Studio 16 guarded by Corgi](assets/unboxing.jpg)
+
+Despite the fact that I knew the dimensions of the console ahead of time, I
+was rather surprised at its size. I was also surprised by what seems like
+extremely robust, thick-gauge steel construction. While I've seen some
+considerable shade thrown about the Spirit Studio in forums, often times I
+feel like people are conflating them with later plastic models that are
+targeted at budget studios. 
+
+Case in point, [This article](http://www.muzines.co.uk/articles/soundcraft-spirit-studio/827)
+from June 1991 lists the price of the 16 channel console as 1651 GBP, which
+in 1991, according to some spot currency rates from that time, translated to
+$2734 USD, which in adjusted for inflation translates to approximately $5257
+in 2021 dollars.
+
+So, this was not a casual purchase for anyone in 1991, and was not a budget
+console either. In fact, it puts on on par, price-wise, with a Toft Audio
+designs ATB16, which is probably the closest thing that you can find to the
+Spirit Studio 16 today.
+
+![Soundcraft Spirit Studio unboxed](assets/unboxed.jpg)
+
+
