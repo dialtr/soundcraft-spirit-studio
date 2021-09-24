@@ -106,3 +106,11 @@ suggestions for things that you should consider.
   your system. You may also need to upgrade your computer interface
   (assuming you use a DAW-based system) to add channels in support of
   integrating the analog console.
+
+## Work Log
+
+### 25 August 2021
+
+The console arrived today:
+
+![Soundcraft Spirit Studio 16 guarded by Corgi](assets/unboxing.jpg)
