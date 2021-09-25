@@ -120,15 +120,60 @@ order, with most recent entries at the top. This may prove to be a poor
 choice, but I've elected to order things this way so that people keeping
 up-to-date don't have to scroll so much.
 
-Note that due to time constraints, my entries are sometimes delayed and
-will not be updated in real-time necessarily.
+I've also included, for each post, the *estimated* time that it took for me
+to complete the step as documented. This should be interesting when it comes
+time to compose a final cost tally for the project.
+
+**Note that due to time constraints, my entries are sometimes delayed and
+will not be updated in real-time necessarily.**
 
 ## Resources
 [Soundcraft Spirit Studio Schematics](assets/soundcraft-spirit-studio-schematics.pdf)
 
 ## Work Log
 
-### 25 August 2021
+### 06 September 2021 - Checking Things Out - 4.0 Hours
+
+[Soundcraft Spirit with Clipboard](assets/checklist-1.jpg)
+
+As noted, I am behind on documenting progress with the restoration project,
+but am working through the backlog. The entry for this day documents going
+through the console's features to see what, if any, trouble spots exist.
+
+And this console has a lot of things to test. A total of 16 input modules,
+each with a mic/line preamp, tape return, insert, and direct out. Also a
+routing matrix to the group buses, 4-band equalization, dual input/tape
+signal paths, aux sends...The list goes on.
+
+I am a huge fan of checklists, which I find incredibly useful in managing
+software projects at my day job as well as just my overall day-to-day. So, I
+created a task list with the goal of checking every single function of the
+console prior to disassembly. With so many things going on, it would really
+be impossible to keep it all in my head. 
+
+Here's what it looked like:
+
+[Spreadsheet with Feature Checklist](assets/checklist-2.jpg)
+
+This picture was taken before I was done. I made an attempt to capture
+every single feature of the board (the picture merely depicts some of the
+features for an input module) and then went through, channel by channel,
+feature by feature, and marked the sheet accordingly.
+
+I was pretty astonished by the end to find that the console has no faults
+except for the occasional scratchy switch and/or dirty potentionmeter. All
+the connectors, switches, pots, faders, LEDs and features work as
+expected. It's almost hard to believe, given that this console is 30 years
+old, but I'll take all the good news I can get!
+
+One thing I noticed while inspecting further is that the console has been
+dropped at some point, perhaps even during its most recent shipment. However,
+Nothing internally seems to have been damaged, and I am pretty sure that I
+will be able to bend the heavy gauge metal back into shape with some
+stratgic use of clamps and blocks of wood, etc.
+
+
+### 25 August 2021 - Arrival - 0.5 Hours
 
 The console arrived today, and I had some help unboxing it from my Corgi pal,
 Stanley, who does not look like he approves of the purchase in this picture.
@@ -156,4 +201,5 @@ Spirit Studio 16 today.
 
 ![Soundcraft Spirit Studio unboxed](assets/unboxed.jpg)
 
+Here it is out of the box (above.)  
 
