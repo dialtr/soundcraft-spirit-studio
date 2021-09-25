@@ -134,7 +134,7 @@ will not be updated in real-time necessarily.**
 
 ### 06 September 2021 - Checking Things Out - 4.0 Hours
 
-[Soundcraft Spirit with Clipboard](assets/checklist-1.jpg)
+![Soundcraft Spirit with Clipboard](assets/checklist-1.jpg)
 
 As noted, I am behind on documenting progress with the restoration project,
 but am working through the backlog. The entry for this day documents going
@@ -153,7 +153,7 @@ be impossible to keep it all in my head.
 
 Here's what it looked like:
 
-[Spreadsheet with Feature Checklist](assets/checklist-2.jpg)
+![Spreadsheet with Feature Checklist](assets/checklist-2.jpg)
 
 This picture was taken before I was done. I made an attempt to capture
 every single feature of the board (the picture merely depicts some of the
