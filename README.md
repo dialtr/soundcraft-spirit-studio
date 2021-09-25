@@ -19,7 +19,7 @@ A console of this type was likely to be paired with a semi-pro 8-track recorder
 such as those available from Tascam. but around the same time, Alesis released
 the ADAT, which put digital multitrack recording in the hands of the masses for
 the first time. Since ADATs could be linked together with sample-accurate
-synchronization, 16 and 24 track studios came into reach for serious home
+synchronization, 16 and even 24 track studios came into reach for serious home
 musicians and project studios, and along with completely hard-disk / DAW based
 systems, were probably the death knell for some small professional
 studios (citation needed.)
@@ -107,6 +107,25 @@ suggestions for things that you should consider.
   (assuming you use a DAW-based system) to add channels in support of
   integrating the analog console.
 
+## Structure of this document
+
+Following the project introduction, this document is divided into several
+sections. First, the **Resources** section, which is presented at the top so
+that anyone looking for schematics or information presented in the journal
+can find them without scrolling through the work log.
+
+Second, the **Work Log** section presents notes on my progress with the
+restoration over time. These are organized as journal entries in reverse date
+order, with most recent entries at the top. This may prove to be a poor
+choice, but I've elected to order things this way so that people keeping
+up-to-date don't have to scroll so much.
+
+Note that due to time constraints, my entries are sometimes delayed and
+will not be updated in real-time necessarily.
+
+## Resources
+[Soundcraft Spirit Studio Schematics](assets/soundcraft-spirit-studio-schematics.pdf)
+
 ## Work Log
 
 ### 25 August 2021
@@ -117,22 +136,22 @@ Perhaps he thinks it will mean less time spent with him?
 
 ![Soundcraft Spirit Studio 16 guarded by Corgi](assets/unboxing.jpg)
 
-Despite the fact that I knew the dimensions of the console ahead of time, I
-was rather surprised at its size. I was also surprised by what seems like
-extremely robust, thick-gauge steel construction. While I've seen some
-considerable shade thrown about the Spirit Studio in forums, often times I
-feel like people are conflating them with later plastic models that are
-targeted at budget studios. 
+Despite the fact that I knew the dimensions of the console ahead of time, I was
+rather surprised at its size. I was also surprised by what seems like extremely
+robust, thick-gauge steel construction. While I've seen some considerable shade
+thrown at the Spirit Studio in forums, often times I feel like people are
+conflating them with later plastic models that are targeted at more budget
+studios. 
 
 Case in point, [This article](http://www.muzines.co.uk/articles/soundcraft-spirit-studio/827)
-from June 1991 lists the price of the 16 channel console as 1651 GBP, which
-in 1991, according to some spot currency rates from that time, translated to
-$2734 USD, which in adjusted for inflation translates to approximately $5257
-in 2021 dollars.
+from June 1991 lists the price of the 16 channel console as 1651 GBP, which in
+1991, according to some spot currency rates from that time, translated to $2734
+USD, which adjusted for inflation translates to approximately $5257 in 2021
+dollars!
 
-So, this was not a casual purchase for anyone in 1991, and was not a budget
-console either. In fact, it puts on on par, price-wise, with a Toft Audio
-designs ATB16, which is probably the closest thing that you can find to the
+So, this was not a casual purchase for anyone in 1991, and was not strictly a
+budget console either. In fact, it is on par, price-wise, with a Toft Audio
+Designs ATB16, which is probably the closest thing that you can find to the
 Spirit Studio 16 today.
 
 ![Soundcraft Spirit Studio unboxed](assets/unboxed.jpg)
