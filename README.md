@@ -129,8 +129,73 @@ will not be updated in real-time necessarily.**
 
 ## Resources
 [Soundcraft Spirit Studio Schematics](assets/soundcraft-spirit-studio-schematics.pdf)
+[Spirit Studio Electrolytic Capacitors](assets/spirit-studio-electrolytic-capacitors.ods)
+
 
 ## Work Log
+
+### 26 September 2021 - Capacitors - 5.0 Hours
+
+![Spirit Studio Circuit Boards](assets/counting-caps-1.jpg)
+After using my new ESR meter to test some capacitors, I came to the conclusion
+that they are out of spec. While it is impractical to test all of them, I
+pulled some out of circuit by desoldering them in order to ensure that the
+test was as accurate as possible. 
+
+Generally, electrolytic capacitors get old after awhile. And my Spirit Studio
+is about 30 years old at this point. It's time to bite the bullet.
+
+Replacing capacitors is a job that should not be undertaken lightly. You
+really need to make a serious commitment of both time and money. In my case, I
+did a ballpark estimate and figured it would cost me around $200 to replace
+all of the capacitors on the board.
+
+Next step: actually count how many of which value I need and put the order in.
+
+As shown in the photo, I proceeded by pulling one of each type of card from
+the console, and then made checklists for all of the boards. Shown in the
+photo are a group PCB and the master section PCB.
+
+Here's an example of a checklist:
+
+![Spirit Studio Capacitor Checklist](assets/counting-caps-2.jpg)
+
+The checklist includes the PCB part label (for example, C21 on the PCB) and
+the value in microfarads as well as the voltage. I made lists for each of
+the types of PCB in the console:
+
+* Input Module (x16)
+* Group Module (x4)
+* Group Module Meter Daughter Card (x4)
+* Master Module (x1)
+* Master Module Meter Daugther Card (x1)
+
+Once I completed (and double checked!) all of these lists, I transferred the
+data to a spreadsheet. In the spreadsheet, I sorted all of the items by part
+and used formulas to calculate how many of each part I needed to order from
+my supplier (Mouser.)
+
+Here's the sheet:
+
+[Spirit Studio Electrolytic Capacitors](assets/spirit-studio-electrolytic-capacitors.ods)
+
+Note that the spreadsheet is in the ODS format. That's because I use Linux
+and LibreOffice (as opposed to Excel for Windows or Numbers of Mac). If anyone
+is interested in the sheet in Excel format, let me know and I'll export it.
+
+At the bottom of the sheet are the totals. When it came to order, I actually
+ordered about 20% or more extras. Why? Capacitors are in short supply right
+now with the 2021 pandemmic-related supply-chain shortages. Also, it's possible
+that some will be defective and so I wanted to order some extras just in case.
+
+When you're ordering in these quantities, the per-unit prices fall pretty
+quickly.
+
+The total tally for my capacitor purchase was around $180 USD. This included
+some that I was forced to source on eBay because they were out of stock at
+Mouser and wouldn't be delivered until late November. I am not interested in
+waiting that long, so I put in the $10 eBay order.
+
 
 ### 06 September 2021 - Checking Things Out - 4.0 Hours
 
