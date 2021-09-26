@@ -135,7 +135,7 @@ will not be updated in real-time necessarily.**
 
 ## Work Log
 
-### 26 September 2021 - Capacitors - 5.0 Hours
+### 26 September 2021 - Counting Capacitors - 5.0 Hours
 
 ![Spirit Studio Circuit Boards](assets/counting-caps-1.jpg)
 After using my new ESR meter to test some capacitors, I came to the conclusion
