@@ -129,6 +129,7 @@ will not be updated in real-time necessarily.**
 
 ## Resources
 [Soundcraft Spirit Studio Schematics](assets/soundcraft-spirit-studio-schematics.pdf)
+
 [Spirit Studio Electrolytic Capacitors](assets/spirit-studio-electrolytic-capacitors.ods)
 
 
