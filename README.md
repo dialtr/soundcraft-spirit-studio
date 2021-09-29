@@ -1,6 +1,16 @@
 # Soundcraft Spirit Studio Restoration
 
-Tom Dial
+Thomas R. Dial
+
+## Index
+
+* [Background](#background)
+* [Before You Start](#before-you-start)
+* [Work Log](#work-log)
+  * [It Arrives](#it-arrives)
+  * [Checking Things Out](#checking-things-out)
+  * [Capacitors](#capacitors)  
+* [Resources](#resources)
 
 ## Background
 
@@ -36,7 +46,7 @@ analog mixer cheaply and restore it. Furthermore, I decided to document the
 restoration project so that interested parties may learn from my experience
 and potentially, avoid my mistakes!
 
-## Before you Start
+## Before You Start
 
 If you're planning on a console restoration project, I already have a few
 suggestions for things that you should consider.
@@ -49,6 +59,7 @@ suggestions for things that you should consider.
   value of forums is gaining insight into potential pitfalls, common
   issues, and potentially, sources of spare parts.
 
+
 * **Shop locally**  Recording consoles like this are large and
   heavy. Even the sixteen channel console that I am restoring is large,
   and I ended up paying $100 just in shipping. This was greatly offset by
@@ -59,15 +70,18 @@ suggestions for things that you should consider.
   out as the console functioned very well (nothing broken, at least) and
   wasn't missing any knobs, sliders, etc.
 
+
 * **Make sure you have schematics** Schematics *can* be hard to find but
   are necessary if you truly need to dig in with the restoration. They are
   also very interesting to read and may give you good ideas if you're
   interested in building projects of your own design.
 
+
 * **Consider parts availability**  Parts for some consoles can be hard to
   locate. A friend of mine has a Calrec console that uses ICs that are
   no longer being made. Obtaining spares will be expensive. By contrast,
   the Spirit Studio uses (mostly) still-available op-amps.
+
 
 * **Ensure the power supply is reliable**  Semi-pro and professional
   consoles will typically have external power supplies. If you're working
@@ -76,7 +90,7 @@ suggestions for things that you should consider.
   provide adequate protection for faults, it would be bad news if, for
   example, one of the power rails in a bipolar supply failed and the
   other one remained functional. Check large electrolytic capacitors
-  (more on that later) and replace if bulging, leaking, etc. 
+  (more on that later) and replace if bulging, leaking, etc.
 
   **NOTE:** I've seen some consoles for sale *without* their power
   supplies. I would be wary of this. If the seller doesn't have the power
@@ -84,6 +98,7 @@ suggestions for things that you should consider.
   power supplies are speciality items and often sell on eBay for
   hundreds of dollars. I got my console (and power supply) for less than
   what other people are selling their power supplies for on eBay!
+
 
 * **Have the correct tools, know how to use them**  Restoration of a
   console will generally require some parts to be repaired or replaced.
@@ -106,42 +121,87 @@ suggestions for things that you should consider.
   your system. You may also need to upgrade your computer interface
   (assuming you use a DAW-based system) to add channels in support of
   integrating the analog console.
-
-## Structure of this document
-
-Following the project introduction, this document is divided into several
-sections. First, the **Resources** section, which is presented at the top so
-that anyone looking for schematics or information presented in the journal
-can find them without scrolling through the work log.
-
-Second, the **Work Log** section presents notes on my progress with the
-restoration over time. These are organized as journal entries in reverse date
-order, with most recent entries at the top. This may prove to be a poor
-choice, but I've elected to order things this way so that people keeping
-up-to-date don't have to scroll so much.
-
-I've also included, for each post, the *estimated* time that it took for me
-to complete the step as documented. This should be interesting when it comes
-time to compose a final cost tally for the project.
-
-**Note that due to time constraints, my entries are sometimes delayed and
-will not be updated in real-time necessarily.**
-
-## Resources
-[Soundcraft Spirit Studio Schematics](assets/soundcraft-spirit-studio-schematics.pdf)
-
-[Spirit Studio Electrolytic Capacitors](assets/spirit-studio-electrolytic-capacitors.ods)
-
-
+  
 ## Work Log
 
-### 26 September 2021 - Counting Capacitors - 5.0 Hours
+### It Arrives
+
+The console arrived today, and I had some help unboxing it from my Corgi pal,
+Stanley, who does not look like he approves of the purchase in this picture.
+Perhaps he thinks it will mean less time spent with him?
+
+![Soundcraft Spirit Studio 16 guarded by Corgi](assets/unboxing.jpg)
+
+Despite the fact that I knew the dimensions of the console ahead of time, I was
+rather surprised at its size. I was also surprised by what seems like extremely
+robust, thick-gauge steel construction. While I've seen some considerable shade
+thrown at the Spirit Studio in forums, often times I feel like people are
+conflating them with later plastic models that are targeted at more budget
+studios.
+
+Case in point, [This article](http://www.muzines.co.uk/articles/soundcraft-spirit-studio/827)
+from June 1991 lists the price of the 16 channel console as 1651 GBP, which in
+1991, according to some spot currency rates from that time, translated to $2734
+USD, which adjusted for inflation translates to approximately $5257 in 2021
+dollars!
+
+So, this was not a casual purchase for anyone in 1991, and was not strictly a
+budget console either. In fact, it is on par, price-wise, with a Toft Audio
+Designs ATB16, which is probably the closest thing that you can find to the
+Spirit Studio 16 today.
+
+![Soundcraft Spirit Studio unboxed](assets/unboxed.jpg)
+
+Here it is out of the box (above.)
+  
+### Checking Things Out
+
+![Soundcraft Spirit with Clipboard](assets/checklist-1.jpg)
+
+As noted, I am behind on documenting progress with the restoration project,
+but am working through the backlog. The entry for this day documents going
+through the console's features to see what, if any, trouble spots exist.
+
+And this console has a lot of things to test. A total of 16 input modules,
+each with a mic/line preamp, tape return, insert, and direct out. Also a
+routing matrix to the group buses, 4-band equalization, dual input/tape
+signal paths, aux sends...The list goes on.
+
+I am a huge fan of checklists, which I find incredibly useful in managing
+software projects at my day job as well as just my overall day-to-day. So, I
+created a task list with the goal of checking every single function of the
+console prior to disassembly. With so many things going on, it would really
+be impossible to keep it all in my head.
+
+Here's what it looked like:
+
+![Spreadsheet with Feature Checklist](assets/checklist-2.jpg)
+
+This picture was taken before I was done. I made an attempt to capture
+every single feature of the board (the picture merely depicts some of the
+features for an input module) and then went through, channel by channel,
+feature by feature, and marked the sheet accordingly.
+
+I was pretty astonished by the end to find that the console has no faults
+except for the occasional scratchy switch and/or dirty potentionmeter. All
+the connectors, switches, pots, faders, LEDs and features work as
+expected. It's almost hard to believe, given that this console is 30 years
+old, but I'll take all the good news I can get!
+
+One thing I noticed while inspecting further is that the console has been
+dropped at some point, perhaps even during its most recent shipment. However,
+Nothing internally seems to have been damaged, and I am pretty sure that I
+will be able to bend the heavy gauge metal back into shape with some
+stratgic use of clamps and blocks of wood, etc.
+
+### Capacitors
+
 
 ![Spirit Studio Circuit Boards](assets/counting-caps-1.jpg)
 After using my new ESR meter to test some capacitors, I came to the conclusion
 that they are out of spec. While it is impractical to test all of them, I
 pulled some out of circuit by desoldering them in order to ensure that the
-test was as accurate as possible. 
+test was as accurate as possible.
 
 Generally, electrolytic capacitors get old after awhile. And my Spirit Studio
 is about 30 years old at this point. It's time to bite the bullet.
@@ -197,75 +257,10 @@ some that I was forced to source on eBay because they were out of stock at
 Mouser and wouldn't be delivered until late November. I am not interested in
 waiting that long, so I put in the $10 eBay order.
 
+## Resources
 
-### 06 September 2021 - Checking Things Out - 4.0 Hours
+[Soundcraft Spirit Studio Schematics](assets/soundcraft-spirit-studio-schematics.pdf)
 
-![Soundcraft Spirit with Clipboard](assets/checklist-1.jpg)
+[Spirit Studio Electrolytic Capacitors](assets/spirit-studio-electrolytic-capacitors.ods)
 
-As noted, I am behind on documenting progress with the restoration project,
-but am working through the backlog. The entry for this day documents going
-through the console's features to see what, if any, trouble spots exist.
-
-And this console has a lot of things to test. A total of 16 input modules,
-each with a mic/line preamp, tape return, insert, and direct out. Also a
-routing matrix to the group buses, 4-band equalization, dual input/tape
-signal paths, aux sends...The list goes on.
-
-I am a huge fan of checklists, which I find incredibly useful in managing
-software projects at my day job as well as just my overall day-to-day. So, I
-created a task list with the goal of checking every single function of the
-console prior to disassembly. With so many things going on, it would really
-be impossible to keep it all in my head. 
-
-Here's what it looked like:
-
-![Spreadsheet with Feature Checklist](assets/checklist-2.jpg)
-
-This picture was taken before I was done. I made an attempt to capture
-every single feature of the board (the picture merely depicts some of the
-features for an input module) and then went through, channel by channel,
-feature by feature, and marked the sheet accordingly.
-
-I was pretty astonished by the end to find that the console has no faults
-except for the occasional scratchy switch and/or dirty potentionmeter. All
-the connectors, switches, pots, faders, LEDs and features work as
-expected. It's almost hard to believe, given that this console is 30 years
-old, but I'll take all the good news I can get!
-
-One thing I noticed while inspecting further is that the console has been
-dropped at some point, perhaps even during its most recent shipment. However,
-Nothing internally seems to have been damaged, and I am pretty sure that I
-will be able to bend the heavy gauge metal back into shape with some
-stratgic use of clamps and blocks of wood, etc.
-
-
-### 25 August 2021 - Arrival - 0.5 Hours
-
-The console arrived today, and I had some help unboxing it from my Corgi pal,
-Stanley, who does not look like he approves of the purchase in this picture.
-Perhaps he thinks it will mean less time spent with him?
-
-![Soundcraft Spirit Studio 16 guarded by Corgi](assets/unboxing.jpg)
-
-Despite the fact that I knew the dimensions of the console ahead of time, I was
-rather surprised at its size. I was also surprised by what seems like extremely
-robust, thick-gauge steel construction. While I've seen some considerable shade
-thrown at the Spirit Studio in forums, often times I feel like people are
-conflating them with later plastic models that are targeted at more budget
-studios. 
-
-Case in point, [This article](http://www.muzines.co.uk/articles/soundcraft-spirit-studio/827)
-from June 1991 lists the price of the 16 channel console as 1651 GBP, which in
-1991, according to some spot currency rates from that time, translated to $2734
-USD, which adjusted for inflation translates to approximately $5257 in 2021
-dollars!
-
-So, this was not a casual purchase for anyone in 1991, and was not strictly a
-budget console either. In fact, it is on par, price-wise, with a Toft Audio
-Designs ATB16, which is probably the closest thing that you can find to the
-Spirit Studio 16 today.
-
-![Soundcraft Spirit Studio unboxed](assets/unboxed.jpg)
-
-Here it is out of the box (above.)  
 
