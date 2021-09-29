@@ -9,7 +9,8 @@ Thomas R. Dial
 * [Work Log](#work-log)
   * [It Arrives](#it-arrives)
   * [Checking Things Out](#checking-things-out)
-  * [Capacitors](#capacitors)  
+  * [Capacitors](#capacitors)
+  * [Disassembly](#disassembly)
 * [Resources](#resources)
 
 ## Background
@@ -261,6 +262,98 @@ The total tally for my capacitor purchase was around $180 USD. This included
 some that I was forced to source on eBay because they were out of stock at
 Mouser and wouldn't be delivered until late November. I am not interested in
 waiting that long, so I put in the $10 eBay order.
+
+### Disassembly
+
+**2.0 Hours**
+
+This is a sort of phony update since it was actually one of the first
+chores I took on: disassembly. By *disassembly*, I really mean:
+
+* Removing all the knobs / switch caps / fader caps
+* Basic external cleaning
+* Removal of one channel card to check the state of a fader
+
+This console had clearly been used. When it arrived, it had a fair amount of
+dust and dirt around the potentiometers and faders. The knob, fader, and
+switch caps were also fairly dirty. The faders felt OK, but a little dodgy
+and possibly dirty as well. I wanted to take a look.
+
+![Disassembly](assets/disassembly-0.jpg)
+
+I started by removing every single knob, fader, and switch cap, I put them all
+into a plastic bin with the intent to soak them in soapy water. However,
+before doing that, I tested a single knob with Palmolive hand-dish detergent
+as well as powdered machine detergent. I have read about unfortunate times
+when people attempting to clean old plastics end up ruining them unwittingly with
+chemicals, so I wanted to ensure the soap I used was compatible.
+
+Luckily, after soaking for a night in each soap, the test knobs were fine:
+spotless in fact. Because the machine detergent seems easier to rinse, I
+proceeded with that and filled the entire bin with some machine detergent
+and warm water, and let it soak.
+
+![Knobs!](assets/console-knobs.jpg)
+
+Next, I opened the case. It's held together with metal screws. On my
+console, the plastic side pieces (which are normally screwed to the console
+via threaded brass inserts in the plastic) were broken, so all I had to do
+was remove screws from the case.
+
+Once opened, I removed the hex washers for all jacks and potentiometers
+for the first channel card. There are two screws holding the channel's
+fader in, and another screw that must be removed. Following that, you must
+remove a twisted-pair cable from the channel card. Finally, you must
+remove the ribbon cable connecting the card to the bus (*Note: I'll add
+pictures of this soon.*)
+
+**TIP: Make sure to take pictures as you go along, then you will never
+forget how things were held together.**
+
+![Disassembly](assets/disassembly-1.jpg)
+
+I mentioned earlier that I wanted to check the state of a fader. A key
+reason for this is that if they are totally shot, I need to start 
+sourcing replacements right away. 
+
+The channel faders are attached to the channel card with three wires,
+as shown in the picture above. After noting their position I elected to
+desolder the wires to make handling the fader easier. 
+
+Below is a fader after being disconnected. I noted that it was indeed
+dirty, and the knob didn't move smoothly in the track. It felt as
+though there was dirt in the track. Linear potentiometers are always
+prone to dirt and dust, and this was no exception: I could literally
+pull dust bunnies from inside the fader!
+
+![Fader Overhaul](assets/disassembly-2.jpg)
+
+The next step was to disassemble the fader itself. To do this you 
+must work very carefully. I used a pair of needle-nose pliers to 
+carefully bend back the tabs holding the fader assembly together.
+(These tabs should be visible in the photo.)
+
+Once disassembled, I cleaned the parts using isopropyl alcohol and
+a couple Q-Tips. The track on the fader appeared to be in O.K.
+condition. I was careful to note the positions of all the pieces
+before taking faders apart: the digital camera is your friend here!
+
+Once clean, I lubricated the carbon track on the fader PCB with
+Deoxit F5 Faderlube. I also applied some Deoxit fader grease to
+the inside of the metal case which the wiper slides in. Just a 
+little grease is enough.
+
+![Fader Overhaul](assets/disassembly-3.jpg)
+
+After reassembly, the fader felt as good as new and definitely
+better than the others. I am hoping that the others are simply dirty
+and can be restored like this.
+
+I ended up reassembling the console after all this (although the knobs and
+switch caps are still in the plastic bin, now dry.) In a later step, I
+will go over cleaning / refurbishing of the case itself, and while I am
+waiting for capacitors to arrive, I'll start thinking about how I want
+to replace the side panels (probably with some hardwood.)
 
 ## Resources
 
