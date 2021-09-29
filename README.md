@@ -126,6 +126,8 @@ suggestions for things that you should consider.
 
 ### It Arrives
 
+**0.5 Hours**
+
 The console arrived today, and I had some help unboxing it from my Corgi pal,
 Stanley, who does not look like he approves of the purchase in this picture.
 Perhaps he thinks it will mean less time spent with him?
@@ -155,6 +157,8 @@ Spirit Studio 16 today.
 Here it is out of the box (above.)
   
 ### Checking Things Out
+
+**4.0 Hours**
 
 ![Soundcraft Spirit with Clipboard](assets/checklist-1.jpg)
 
@@ -196,6 +200,7 @@ stratgic use of clamps and blocks of wood, etc.
 
 ### Capacitors
 
+**5.0 Hours**
 
 ![Spirit Studio Circuit Boards](assets/counting-caps-1.jpg)
 After using my new ESR meter to test some capacitors, I came to the conclusion
@@ -258,6 +263,12 @@ Mouser and wouldn't be delivered until late November. I am not interested in
 waiting that long, so I put in the $10 eBay order.
 
 ## Resources
+
+[DE-5000 LCR Meter](https://tinyurl.com/bkwjyutk)
+
+[El Cheapo Signal Generator](https://tinyurl.com/tjf5y8f)
+
+[Rigol DS1074 Oscilloscope](https://tinyurl.com/2ed455vv)
 
 [Soundcraft Spirit Studio Schematics](assets/soundcraft-spirit-studio-schematics.pdf)
 
