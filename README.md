@@ -361,6 +361,8 @@ to replace the side panels (probably with some hardwood.)
 
 [El Cheapo Signal Generator](https://tinyurl.com/tjf5y8f)
 
+[ESR Calculator](esr/)
+
 [Rigol DS1074 Oscilloscope](https://tinyurl.com/2ed455vv)
 
 [Soundcraft Spirit Studio Schematics](assets/soundcraft-spirit-studio-schematics.pdf)
