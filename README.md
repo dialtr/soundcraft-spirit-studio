@@ -11,6 +11,8 @@ Thomas R. Dial
   * [Checking Things Out](#checking-things-out)
   * [Capacitors](#capacitors)
   * [Disassembly](#disassembly)
+  * [Ribbon Cable](#ribbon-cable)
+  * [Parts Arrive](#parts)
 * [Resources](#resources)
 
 ## Background
@@ -354,6 +356,116 @@ switch caps are still in the plastic bin, now dry.) In a later step, I
 will go over cleaning / refurbishing of the case itself, and while I am
 waiting for capacitors to arrive, I'll start thinking about how I want
 to replace the side panels (probably with some hardwood.)
+
+### Ribbon Cable
+
+**0.5 Hours**
+
+Audio consoles in this price range are not fully modular in the sense that a
+true professional console is. The Soundcraft Spirit Studio (and even its
+successor, the Ghost) employed a monolithic chassis to save costs, but retained
+individual module PCBs. In a modular console, my understanding is that there
+is a "back plane" type of arrangement so that modules have edge connectors
+that plug into the chassis. These connectors are probably fairly robust and
+also expensive.
+
+Again, to safe costs and space, consoles in the "home studio" price range use
+low-cost edge connectors and connect the modules with a ribbon cable. These
+cables are often the source of failures and intermittent connections when they
+get old, but can also be difficult to replace. While mine is in good shape and
+all of the functions checked out on my console, I have elected to do some
+basic cleaning to make sure connections are good.
+
+![Dirty Ribbon Cable](assets/ribbon-cable-one.jpg)
+
+The picture above shows what the ribbon cable looked like when it was removed
+from the console. As you may be able to see, it is dusty but there also seems
+to be some kind of white residue on the connectors in some areas. I am not
+sure what this is, but I decided to clean it with isopropyl alcohol (IPA).
+I used the purest form I could buy at the local drug store (91%) and an old
+tooth brush.
+
+![Clean Ribbon Cable](assets/ribbon-cable-two.jpg)
+
+Cleaning with IPA had good results, as you can see above. The cable looks as
+good as new. I plan to also apply Deoxit to the edge connector pins and also
+to the cable connectors prior to re-assembly.
+
+One last note: As discussed, it is apparently difficult to find these cables,
+and I am told that making reliable replacements at home might prove difficult.
+For this reason, I am aiming to minimize my handling of the cable. I will 
+assemble the console fully to test the first channel card that I repair during
+my dry-run of that process, but I won't test each card that way.
+
+My hope is that I can avoid connecting and disconnecting the ribbon as much as
+possible as not to wear out the connections.
+
+Some follow-up tasks:
+
+* Contact Creation Audio Labs to see if they can create new ribbon cables
+* Build a powered test-rig for channel cards so that I can test the cards
+
+### Parts
+
+* Inventory - **0.5 Hours**
+* Planning - **0.5 Hours**
+* Implementing ESR Calculator - **0.25 Hours**
+
+This past Thursday, my capacitor order arrived. As discussed in a previous
+section, in order to replace the capacitors in the console, I had to order
+them in significant quantity. I elected to choose Nichicon UFG
+("Fine Gold Muse") capacitors, which are nice audio capacitors and quite
+suitable for replacing the old capacitors in this console.
+
+![Capacitor Order](assets/caps-getting-real.jpg)
+
+I ordered approximately 20% more capacitors than I needed in order to allow
+for out-of-spec parts, damage, and errors in delivery. I can use the spares
+in other projects or possibly just sell them on eBay. Purchasing in bulk,
+going over on the purchase quantity didn't cost *that* much and definitely
+added to peace-of-mind in case I counted incorrectly.
+
+My first step was to take inventory, and I found that
+[Mouser](https://www.mouser.com) is extremely accurate in terms of shipping.
+I had one extra capacitor in one value and was missing another in another
+value. However, this amounts to a very small error and my over-order
+corrected for the missing capacitor.  
+
+At this point, things are "getting real" with the project. I have done a
+fair amount of pre-work to label the cards, I've removed all knobs and fader
+caps, and have assessed what I will attempt to address and what I will not.
+
+Since I'm about to embark on a major effort to replace *all* of the
+electrolytic capacitors in the board, I need to perform a test to ensure that
+nothing will go horribly wrong. So, my approach will be to service a single
+channel card first, reassemble the console, and test the channel. If all goes
+as well with the first channel, then I will proceed.
+
+![Channel One](assets/channel-one-pcb.jpg)
+
+I have therefor removed the first channel card and will proceed with making
+a checklist of items to address, and then will go ahead with that. So, what
+have I decided to do, and what have I decided *not* to do for each channel?
+
+* Tasks
+  * Jacks - Will be removed and ultrasonically cleaned in IPA.
+  * Switches - Will be removed and ultransonically cleaned in IPA.
+  * Faders - Will be overhauled and replaced if necessary.
+  * Edge Connector - Will be cleaned to ensure good contact with ribbon cable
+  * Electrolytic Capacitors - Will be replaced
+  * Potentiometers - Will be cleaned externally
+  * Miscellaneous - Spot repairs made as needed (some ICs are not seated well.)
+
+* Non-tasks
+  * Potentiometers are in good shape; no rebuild or overhaul will be done. 
+
+While it seems like extreme overkill, I am trying to document this project in
+detail as an exercise in project management, so I will be creating a
+detailed repair checklist that will be included in the resources section.
+
+A final note: I wrote a small C program to calculate expected ESR at a given
+test frequency. This program relies on values provided on the capacitor's data
+sheet. I will cover this program in a later post.
 
 ## Resources
 
