@@ -485,8 +485,8 @@ use it to hold parts that had been removed.
 
 All of the switches and jacks were desoldered during this step. Desoldering
 was done with a Hakko FR-301 handheld desoldering pump. At this time, it's
-worth saying: *don't attempt a project like this without an automatic
-desoldering pump, and make sure it's a high-quality unit.*
+worth saying: **don't attempt a project like this without an automatic
+desoldering pump, and make sure it's a high-quality unit.**
 
 I've spoken to experienced techs and friends who work in the industry, and
 several of them have told me how efficiently they (or people they know) can
@@ -498,9 +498,9 @@ Short of posting a video (which I may do if I get around to it) I just don't
 think there's any way in the world that a person working with braid or
 any other manual method could beat someone skilled with a desoldering pump.
 With braid, spring-loaded pumps (which you should definitely avoid!) or any
-other method, a job like this is going to take yo *much* longer.
+other method, a job like this is going to take you *much* longer.
 
-Furthermore, don't be cheap when buying tools. Prior to the Hakko, I had an
+**Furthermore, don't be cheap when buying tools.** Prior to the Hakko, I had an
 Aoyue desoldering station that I purchased for less than $200. It's sort of
 a clone of the Hakko in terms of its overall design, but has a very large
 metal desktop case for the pump.  The craftmanship of the Aoyue was quite
@@ -512,10 +512,10 @@ With the Hakko, I serviced an entire board (removing all switches, all 18
 electrolytics, and all jacks) and everything worked perfectly, every time. I
 didn't lift a single pad, and parts practically fell out on their own.
 
-TL;DR - Buy a Hakko FR-301, at a minimum.
+**TL;DR - Buy a Hakko FR-301, at a minimum.**
 
 Once all the parts were removed, I dropped the switches and jacks into an
-ultrasonic cleaner with 99% isopropyl alcohol, purchased line. The ultrasonic
+ultrasonic cleaner with 99% isopropyl alcohol, purchased online. The ultrasonic
 cleaner does wonders with the parts, and they appeared new after cleaning.
 Using a high-grade alcohol is recommended for cleaning electronics / PCBs,
 but make sure it's compatible with plastics you're cleaning first.
@@ -533,7 +533,7 @@ I pulled were in the correct value range, but most had significantly higher
 ESR than the replacements. My conclusion: since the board left the factory
 30 years ago and was obviously used a lot, and since the capacitors showed
 higher ESR than they should, replacing the caps with top-notch Nichicons
-was a good call and will buy be years of service.
+was a good call and will buy me years of service.
 
 ![Completed Card](assets/one-and-done.jpg)
 
