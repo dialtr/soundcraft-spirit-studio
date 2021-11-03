@@ -14,6 +14,7 @@ Thomas R. Dial
   * [Ribbon Cable](#ribbon-cable)
   * [Parts Arrive](#parts)
   * [First Channel](#first-channel)
+  * [Channel Testing](#channel-testing)
 * [Resources](#resources)
 
 ## Background
@@ -542,7 +543,37 @@ cleaned the mask side of the PCB with IPA to clean up residue that
 accumulated during soldering. I also visually inspected all of the joints to
 ensure that they were complete.
 
+### Channel Testing
 
+While it's painful to keep removing and installing things from the console,
+my plan was always to put one of the channels to the test before proceeding.
+Now that I've completed the overhaul of one channel, it's time to proceed.
+
+After reinstalling the card, I connected the bus lead and the ribbon cable,
+which I had completely removed previously for inspection and cleaning.
+
+![Testing](assets/testing-channel-one.jpg)
+
+After powering on and letting it warm up, I plugged in my Akai MPC-2500 
+sampler and loaded a drum kit. I wired the sampler's stereo outs into the
+first and second channel's line inputs, and routed the channels to a bus.
+After a few mishaps with switches not being depressed properly (it's hard
+to tell what position they are in sometimes, especially without the switch
+caps) I proceeded to run through the features.
+
+I didn't expect to be able to hear a difference, but one thing that was
+quite obvious was that the bus switches, which were noisy before, were
+whisper quiet when activating and deactivating. Apparently the ultransonic
+cleaning worked! I also noted that the fader had a much smoother feel than
+the rest (which were not overhauled.)
+
+After running through tests of the EQ, and testing all jacks, I am quite
+satisfied that the overhaul of the channel was a complete success! Next
+steps will be:
+
+* Pull remaining cards and prepare for servicing them all
+* Clean the case, removing grime, adhesive, stickers, etc.
+* Hammer out a bend in the case (near the left side.) 
 
 
 ## Resources
