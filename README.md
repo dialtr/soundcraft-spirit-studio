@@ -15,6 +15,7 @@ Thomas R. Dial
   * [Parts Arrive](#parts)
   * [First Channel](#first-channel)
   * [Channel Testing](#channel-testing)
+  * [Case Cleanup](#case-cleanup)
 * [Resources](#resources)
 
 ## Background
@@ -575,6 +576,60 @@ steps will be:
 * Clean the case, removing grime, adhesive, stickers, etc.
 * Hammer out a bend in the case (near the left side.) 
 
+### Case Cleanup
+
+![Clean Case Closeup](assets/clean-case-closeup.jpg)
+
+Revisiting some earlier pictures of the console in this document, you can
+observe that this was a well-loved piece of gear. Not only was it dirty from
+years of use, the previous owner had used masking tape over the the scribble
+strips to mark channels, affixed stickers, and so on. It also seems that the
+console was dropped hard on the left side at one point, seriously denting 
+the front piece and bending the case enough to be noticable when using the
+channel one fader.
+
+My belief was that using an array of household products and tools, I could
+get the case back to shape. Here's a list of the tools/products used:
+
+* Goo Gone (TM)
+* Acetone (nail polish remover)
+* Water
+* Razor Blade
+* Piece of hardwood
+* Hammer
+* Magic Eraser (TM)
+
+My first step was to test the chemicals in an unobtrusive area (the back of
+the case) to make sure they wouldn't remove the paint. No probem was observed.
+Next I moved on to try the chemicals on the "Spirit Studio" emblem on the
+right-hand side of the console. My logic here was that if either Goo Gone or
+acetone would remove the paint, I'd be better off removing the emblem than
+legends or markings on channel strips.
+
+That test went well also.
+
+The rest was all elbow grease. I pulled off the tape by hand, using the 
+razor (carefully, but not carefully enough, for I did accidentally scratch
+the paint on the left hand side: more on that later.)
+
+After the tape and stickers were removed, I went after the affected areas
+with Goo Gone. It works great! So great in fact, that I decided to wipe down
+the entire console surface with it. Years of grime and other little smudges
+dissolved effortlessly. I didn't overdo it, though, and spent much more time
+working on the areas covered with adhesive.
+
+Finally, it appears as though the previous owner used Sharpie to mark channel
+numbers directly on some of the scribble strips. These marks didn't come off
+with Goo Gone, so I went after them with the acetone nail polish remover.
+Voila! The acetone removed the marker but left the paint.
+
+![Clean Case](assets/clean-case.jpg)
+
+Finally, using spare blocks of wood and a hammer, I hammered the bent metal
+back into shape. I neglected to take before and after pictures here, but
+it is probably visible from the picture above that there are no major bends
+left. I am quite satisfied with the results and ready to proceed with the
+rest of the overhaul!
 
 ## Resources
 
