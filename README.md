@@ -13,6 +13,7 @@ Thomas R. Dial
   * [Disassembly](#disassembly)
   * [Ribbon Cable](#ribbon-cable)
   * [Parts Arrive](#parts)
+  * [First Channel](#first-channel)
 * [Resources](#resources)
 
 ## Background
@@ -466,6 +467,83 @@ detailed repair checklist that will be included in the resources section.
 A final note: I wrote a small C program to calculate expected ESR at a given
 test frequency. This program relies on values provided on the capacitor's data
 sheet. I will cover this program in a later post.
+
+### First Channel
+
+Now that I have all of the tools, parts and resources ready to work on the
+console, I've elected to conduct a trial run to see how servicing a single 
+channel goes. My plan was to pull the first channel card, perform all the
+tasks mentioned in the previous post, reintall it, and test it.  
+
+![Depopulation](assets/depop.jpg)
+
+After pulling the card, I started by depopulating the components from the
+PCB that I planned to drop into the ultrasonic cleaner. I found a scrap of
+anti-static foam that I'd purchased for storing sensitive ICs and decided to
+use it to hold parts that had been removed.
+
+All of the switches and jacks were desoldered during this step. Desoldering
+was done with a Hakko FR-301 handheld desoldering pump. At this time, it's
+worth saying: *don't attempt a project like this without an automatic
+desoldering pump, and make sure it's a high-quality unit.*
+
+I've spoken to experienced techs and friends who work in the industry, and
+several of them have told me how efficiently they (or people they know) can
+work with desoldering braid or using other techniques.
+
+Let's just say this. I'm skeptical.
+
+Short of posting a video (which I may do if I get around to it) I just don't
+think there's any way in the world that a person working with braid or
+any other manual method could beat someone skilled with a desoldering pump.
+With braid, spring-loaded pumps (which you should definitely avoid!) or any
+other method, a job like this is going to take yo *much* longer.
+
+Furthermore, don't be cheap when buying tools. Prior to the Hakko, I had an
+Aoyue desoldering station that I purchased for less than $200. It's sort of
+a clone of the Hakko in terms of its overall design, but has a very large
+metal desktop case for the pump.  The craftmanship of the Aoyue was quite
+poor indeed; the gun felt like it was going to fall apart, and things that
+were supposed to have a good seal did not. Additionally, it seemed to lose
+suction rapidly.
+
+With the Hakko, I serviced an entire board (removing all switches, all 18
+electrolytics, and all jacks) and everything worked perfectly, every time. I
+didn't lift a single pad, and parts practically fell out on their own.
+
+TL;DR - Buy a Hakko FR-301, at a minimum.
+
+Once all the parts were removed, I dropped the switches and jacks into an
+ultrasonic cleaner with 99% isopropyl alcohol, purchased line. The ultrasonic
+cleaner does wonders with the parts, and they appeared new after cleaning.
+Using a high-grade alcohol is recommended for cleaning electronics / PCBs,
+but make sure it's compatible with plastics you're cleaning first.
+
+The picture above depicts the parts after cleaning.
+
+Since I had already handled overhauling the fader for this card (I wanted
+to assess them in order to see if I needed to order spares) the next step was
+replacing capacitors. Here, I worked from the checklist and replaced caps
+more or less one by one. 
+
+I went very slowly so that I could check the specs of the pulled caps. Was
+it necessary to replace all of the capacitors? Well, almost all of those that
+I pulled were in the correct value range, but most had significantly higher
+ESR than the replacements. My conclusion: since the board left the factory
+30 years ago and was obviously used a lot, and since the capacitors showed
+higher ESR than they should, replacing the caps with top-notch Nichicons
+was a good call and will buy be years of service.
+
+![Completed Card](assets/one-and-done.jpg)
+
+The picture above depicts the completed channel card, with the switches
+reinstalled as well as the Nichicon gold capacitors. As a final step, I 
+cleaned the mask side of the PCB with IPA to clean up residue that 
+accumulated during soldering. I also visually inspected all of the joints to
+ensure that they were complete.
+
+
+
 
 ## Resources
 
