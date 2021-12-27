@@ -16,6 +16,7 @@ Thomas R. Dial
   * [First Channel](#first-channel)
   * [Channel Testing](#channel-testing)
   * [Case Cleanup](#case-cleanup)
+  * [Slogging Through](#slogging-through)
 * [Resources](#resources)
 
 ## Background
@@ -630,6 +631,38 @@ back into shape. I neglected to take before and after pictures here, but
 it is probably visible from the picture above that there are no major bends
 left. I am quite satisfied with the results and ready to proceed with the
 rest of the overhaul!
+
+### Slogging Through
+
+![Slogging](assets/slogging.jpg)
+
+I don't have much in the way of updates lately. Work and the holiday season
+have slowed me down to an extent, so I am just slogging through on
+performing the maintenance of each of the channels. So far, however, I am
+about halfway done with the project; I've completed twelve input modules
+so far.
+
+One thing worth mentioning, if you're embarking on a project like this and
+are also using an automatic desoldering pump, is to follow the cleaning
+procedure for the pump early and often to ensure that it is functioning
+well. Otherwise, you could face loss of suction.
+
+The Hakko FR-301 comes with the tools necessary to clean the unit. I
+recommend cleaning it every time you're done, before you put it away. I
+neglected to do this across two or three evenings while I was working on
+a bunch of input channels, and the suction got noticeably worse before
+I remembered that I hadn't cleaned it in awhile.
+
+Something else that I forgot with the project was that I planned to perform
+the user modifications to convert the console's tape sends to +4dBu (they
+are -10dBu by default). Luckily, I think the resistors that must be snipped
+to accomplish this are in a position where I can do it without pulling the
+cards. I hope so!
+
+Until next time, happy holidays! Soon, I'll be done with input channels and
+will be ready to move onto the group cards and master section. Then, it
+will be time for the system test!
+
 
 ## Resources
 
